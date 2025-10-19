@@ -1,4 +1,7 @@
 //Employee Salary Bonus Calculator 
+//Jewelle Melody T. Boisilio
+//BSCS 2-4
+
 import java.util.Scanner;
 public class activity_4 {
     static void main (String[] args){
