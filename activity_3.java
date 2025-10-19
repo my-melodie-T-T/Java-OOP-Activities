@@ -48,7 +48,7 @@ do {
         System.out.printf("Total Salary: PhP %,.2f%n", totalSalary);
         System.out.println("\n");
 
-        //as user if they wanna calculate again
+        //asks user if they wanna calculate again
         System.out.print("Do you want to calculate again? [Y|N]: ");
         scan.nextLine(); // consumes leftover newline
         ans = scan.nextLine();
