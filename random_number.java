@@ -22,13 +22,14 @@ public class random_number {
     String choice;
 
 
+    
+do{
+
     System.out.println(BLUE + "============ NUMBER GUESSING GAME ============\n" + RESET);
 
     System.out.println("I've picked a secret number between" + BLUE + " 1 " + RESET + "and" + BLUE + " 100." + RESET);
     System.out.println("Try to guess it!\n");
-
-do{
-
+    
     guess = 0;
     attempts = 0;
     secretNumber = random.nextInt(max - min + 1) + 1; // random number between 1 and 100
